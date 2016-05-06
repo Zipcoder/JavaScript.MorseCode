@@ -50,6 +50,7 @@ var morse = {
 
 function prompter(){
 	reply = prompt("What text do you want translated?");
+	reply = reply.toLowerCase();
 }
 
 function translate(spacedOut){
